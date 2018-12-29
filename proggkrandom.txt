@@ -1,0 +1,11 @@
+import random
+n=int(input("Enter a six digit number"))
+count=0
+while(True):
+    if(n==random.randint(100000,999999)):
+        break
+    count+=1
+    
+        
+    
+print("Total number of attempt is",count)
