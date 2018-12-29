@@ -1,0 +1,13 @@
+bs=int(input("enter the basic salary"))
+if bs>=5000:
+    hra=(15*bs)/100
+    da=(150*bs)/100
+else:
+    hra=(10*bs)/100
+    da=(110*bs)/100
+gs=hra+da+bs
+
+print("Basic salary is ",bs)
+print("Hra is ",hra)
+print("Da is ",da)
+print("Gross salary is ",gs)
