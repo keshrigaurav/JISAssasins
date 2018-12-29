@@ -1,0 +1,9 @@
+class Power:
+    def check(self,a,b,c):
+        print("the number after evaluation is",(a**(b+c)))
+gk=Power()
+x=int(input("Enter a number"))
+m=int(input("Enter a number"))
+p=int(input("Enter a number"))
+gk.check(x,m,p)
+        
