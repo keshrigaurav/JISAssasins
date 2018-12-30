@@ -1,0 +1,11 @@
+2. sandeep shaw
+
+class maxmin:
+    def num(self,n):
+        print(max(n))
+        print(min(n))
+        print("Maximum number in list is %s\nMinimum number in list is %s "%(max(n),min(n)))
+number=maxmin()
+numb=input("Enter the numbers\n")
+numb=list(numb.split(" "))
+number.num(numb)

@@ -1,0 +1,8 @@
+9. sandeep shaw
+class Sum:
+    def cont(self,n):
+        self.z=int(n[0])+ int(n[-1])
+        print("sum of the first and last digits is ",self.z)
+calu=Sum()
+y=input("Enter the number \n")
+calu.cont(y)

@@ -1,0 +1,7 @@
+12. sandeep shaw
+class Revrse:
+    def st(self,s):
+        print(s[::-1])
+v=Revrse()
+msg=input("Enter a string \n")
+v.st(msg)

@@ -1,0 +1,8 @@
+4. sandeep shaw
+class sot:
+    def insot(self,n):
+        print(sorted(n))
+nim=input("enter the numbers\n")
+nim=list(nim.split(" "))
+n=sot()
+n.insot(nim)

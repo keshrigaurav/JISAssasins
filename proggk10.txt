@@ -1,0 +1,13 @@
+10. sandeep shaw
+class Delv:
+    def st(self,s):
+        self.st1=""
+        for self.x in s:
+            if self.x.lower() in 'aeiou':
+                pass
+            else:
+                self.st1+=self.x
+        print(self.st1)
+vowel=Delv()
+msg=input("Enter a string \n")
+vowel.st(msg)

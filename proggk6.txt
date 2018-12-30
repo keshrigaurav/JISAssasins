@@ -1,0 +1,10 @@
+6. sandeep shaw
+class Name:
+    def sot(self,s):
+        s=sorted(s)
+        print("Sorted list is ",s)
+
+st=Name()
+name=input("Enter the names \n")
+name=list(name.split(" "))
+st.sot(name)

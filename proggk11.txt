@@ -1,0 +1,12 @@
+11. sandeep shaw
+class Check:
+    def st(self,s,c):
+        self.count=0
+        for self.x in s:
+            if self.x == c:
+                self.count+=1
+        print("%s is the number of occurence in the string "%(self.count))
+v=Check()
+msg=input("Enter a string \n")
+c=input("Enter the character\n")
+v.st(msg,c)

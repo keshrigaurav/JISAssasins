@@ -1,0 +1,10 @@
+7. sandeep shaw
+class Cal:
+    def cont(self,n):
+        self.z=0
+        for self.x in n:
+            self.z=self.z+int(self.x)
+        print("sum of the digits is ",self.z)
+calu=Cal()
+y=input("Enter the number \n")
+calu.cont(y)

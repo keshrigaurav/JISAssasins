@@ -1,0 +1,18 @@
+1. sandeep shaw
+
+class num:
+    def number(self,n):
+        self.counto = self.countev = self.count = 0
+        for x in n:
+            if int(x) == 0:
+                self.counto = self.counto + 1
+            elif int(x) % 2 == 0:
+                self.countev += 1
+            elif int(x) % 2 != 0:
+                self.count += 1
+        print("Number of zeros = %s \nNumber of odd = %s\nNumber of even = %s" % (self.counto, self.countev, self.count))
+mynum = num()
+n=input("Enter the four digit number\n")
+mynum.number(n)
+    
+    
